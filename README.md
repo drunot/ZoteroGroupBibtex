@@ -9,7 +9,7 @@ First you need to have node.js installed and it's package manager NPM.
 You initialize the repository by writing:
 
 ```
-ADD THINGS HERE
+npm install
 ```
 
 In oderder for the aplication to be able to use Zotero's wep API you need to map usernames to user IDs. (Only the user IDs needs to match the ones from Zotreo) If you want to be able to access privte groupe a Zotreo API Key is also needed. Please note that all exports will not be password protected and therefore people will be able to read the contents of private repositories through this web application if an API key is given. These informations is given in a json file by the name `users.json` placed in the root folder of this repository. The json file should have the following structure:
