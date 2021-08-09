@@ -43,5 +43,5 @@ $ npm start
 Now you can get bibtex files by accessing the URL:
 
 ```
-your_host.name/<user_name>/<zotero_group_name>.bib
+http://your_host.name/<user_name>/<zotero_group_name>.bib
 ```
