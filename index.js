@@ -3,7 +3,7 @@ const express = require("express");
 const fs = require("fs");
 var app = express();
 const renumber = require("./renumber");
-const port = 2000;
+const port = 80;
 
 const error404 = fs.readFileSync("./404.htm", "utf8");
 
